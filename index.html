@@ -4,14 +4,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/524da71f92.js" crossorigin="anonymous"></script>
         <link href="style/styles.css" rel="stylesheet"> 
+
+        <!--Responsividade-->
+        <link href="style/responsive.css" rel="stylesheet">
+
+        <!--owl css-->
+        <link href="style/owl/owl.carousel.min.css" rel="stylesheet">
+        <link href="style/owl/owl.theme.default.min.css" rel="stylesheet">
+        
         <title>NETFLIX CLONE</title>
     </head>
     <body>
         <header>
             <div class="container">
-                <h2 class="logo">NETFLIX</h2>
+                <h2 class="logo">ANIFLIX</h2>
                 <nav>
                     <a href="#">Inicio</a>
                     <a href="#">Séries</a>
@@ -20,12 +27,12 @@
                 </nav>
             </div>
         </header>
-
+        
         <main>
             <div class="filme-principal">
                 <div class="container">
                     <h3 class="titulo">KIMETSU NO YAIBA</h3>
-                    <p class="descricao">Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.</p>
+                    <p class="descricao">Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família.</p>
                     <div>
                         <button role="button" class="botao">
                             <i class="fa-solid fa-play"></i>ASSISTIR AGORA
@@ -38,6 +45,52 @@
             </div>
         </main>
 
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/BokuNoHero_Capa.jpg" alt="Boku no Hero capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/FullMetalAlchimist_Capa.jpg" alt="Fullmetal alchimist capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/Gintama_Capa.jpg" alt="Gintama capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/GrandBlue_Capa.jpg" alt="GrandBlue Capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/HunterXHunter_Capa.jpg" alt="Hunter X Hunter Capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/JojoNoKimyouNaBakuen_capa.jpg" alt="Jojo No Kimyou Na Bakuen capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/JujutsuKaisen_Capa.jpg" alt="Jujutsu Kaisen Capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/OnePiece_Capa.jpg" alt="One Piece Capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/OusamaRanking_Capa.jpg" alt="Ousama Ranking Capa">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/ShingekiNokyojin_Capa.jpg" alt="Shingeki No kyojin Capa">>
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/TokyoGhoul_Capa.jpg" alt="Tokyo Ghoul Capa">
+                </div>
+            </div>
+        </div>
+
+        
+        <!--fontawesome script-->
+        <script src="https://kit.fontawesome.com/524da71f92.js" crossorigin="anonymous"></script>
+
+        <!--Owl script-->
+        <script src="./js/owl/jquery.min.js" ></script>
+        <script src="./js/owl/owl.carousel.min.js"></script>
+        <script src="./js/owl/setup.js"></script>
         
     </body>
 </html>
